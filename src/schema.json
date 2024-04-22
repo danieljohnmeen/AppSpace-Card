@@ -1,0 +1,14 @@
+{
+   "version": "1.1",
+   "settings": {
+      "fontfamily": ["Arial"]
+   },
+   "inputs": [{
+      "name": "title",
+      "label": "Enter Title",
+      "type": "textbox",
+      "validation": {
+         "required": true
+      }
+   }]
+}

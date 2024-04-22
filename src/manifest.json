@@ -1,0 +1,21 @@
+{
+   "Name": "Angular Boilerplate",
+   "Id": "appspace.card.boilerplate.angular",
+   "Description": "Appspace Angular Boilerplate Card",
+   "Thumbnail": "thumbnail.svg",
+   "Startup": "index.html",
+   "Schema": "schema.json",
+   "Developer": "community",
+   "Model": "model.json",
+   "Version": "2.0.0",
+   "DisplayFormats": [{
+         "Type": "tv"
+      },
+      {
+         "Type": "mobile"
+      }
+   ],
+   "Network": {
+      "RequiresConnection": false
+   }
+}

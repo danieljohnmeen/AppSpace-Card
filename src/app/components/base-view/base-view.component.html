@@ -1,0 +1,12 @@
+<div class="base-view">
+   <app-editing-view *ngIf="context===contexts['EDIT'] || context===contexts['THEME']" [message]="message">
+   </app-editing-view>
+
+   <app-screenshot-view *ngIf="context===contexts['SCREENSHOT'] || context===contexts['THEMESCREENSHOT']"
+      [message]="message">
+   </app-screenshot-view>
+
+   <app-playback-view *ngIf="context===contexts['DEVICE'] || context===contexts['NONE']" [message]="message"
+      [context]="context">
+   </app-playback-view>
+</div>
