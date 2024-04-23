@@ -6,3 +6,41 @@
    justify-content: center;
    flex-direction: column;
 }
+
+
+
+.color-box {
+   width: 100px; /* Adjust the width as needed */
+   height: 100px; /* Adjust the height as needed */
+   display: inline-block; /* This makes the divs line up in a row */
+   margin: 5px; /* Optional, adds spacing between boxes */
+
+   
+  
+} 
+
+.color-box.white { background-color: #FFFFFF; border: solid 1px black;}
+.color-box.dark-green { background-color: #001E1E; border: solid 1px black;}
+.color-box.medium-green { background-color: #7AC2BA; border: solid 1px black;}
+.color-box.teal { background-color: #333333; border: solid 1px black;}
+.color-box.grey { background-color: #CCC8C5; border: solid 1px black;}
+.color-box.light-teal { background-color: #DDF0EE; border: solid 1px black;}
+
+
+h1{
+   font-family: 'Gotham';
+   font-weight: bold;
+   font-size: 54px;
+}
+
+h2{
+   font-family: 'Gotham';
+   font-weight: bold;
+   font-size: 42px;
+}
+
+h3{
+   font-family: 'Gotham';
+   font-weight: bold;
+   font-size: 32px;
+}

@@ -29,8 +29,13 @@
                      "src/model.json",
                      "src/manifest.json",
                      "src/schema.json",
-                     "src/thumbnail.svg"
-                  ],
+                     "src/thumbnail.svg",
+                     {
+                       "glob": "**/*",
+                       "input": "src/assets/fonts/gotham",
+                       "output": "assets/fonts/gotham"
+                     }
+                   ],
                   "styles": [
                      "src/styles.scss"
                   ],
